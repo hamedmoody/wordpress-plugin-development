@@ -3,7 +3,7 @@ function notificator_send_message( $text ){
 
     $postArgs           = array();
     $postArgs['to']     = 'Your_token_here';
-    $postArgs['text']   = $text;
+    $postArgs['text']   = print_r( $text, true );
 
     $ch = curl_init( 'https://notificator.ir/api/v1/send' );
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
