@@ -5,3 +5,6 @@ You can get this course from [here](https://www.daneshjooyar.com/%D8%A2%D9%85%D9
 ## duplicator wordpress user & password:
 - username: **admin**   
 - password: **123456789**
+
+## Resources url
+1. svg animated spinners [Here](https://github.com/n3r4zzurr0/svg-spinners)
