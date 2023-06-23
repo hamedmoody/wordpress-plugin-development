@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ورود به دانشجویار</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/fontiran.css">
+    <link rel="stylesheet" href="assets/css/panel.css">
+</head>
+<body class="panel panel-login">
+    <div class="login-container">
+        <div class="login-right">
+            <img src="assets/images/logo.svg" alt="لوگو" width="217" height="77">
+            <h1>ورود به سایت</h1>
+            <form action="">
+                <div class="form-group">
+                    <label for="user_login">نام کاربری یا ایمیل:</label>
+                    <input type="text" class="form-control" placeholder="نام کاربری یا ایمیل" id="user_login" name="user_login" required>
+                </div>
+                <div class="form-group">
+                    <div class="panel-password-label">
+                        <label for="user_password">گذرواژه:</label>
+                        <a href="#">رمزم یادم نیست!</a>
+                    </div>
+                    <input type="password" class="form-control" id="user_password" name="user_password" required>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-block btn-primary">
+                        ورود به سایت
+                    </button>
+                </div>
+            </form>
+            <div class="panel-offer-signup">
+                تا کنون ثبت نام نکرده اید؟
+                <a href="#">ثبت نام کنید</a>
+            </div>
+        </div>
+        <img src="assets/images/login-banner.png" alt="پنل کاربری" width="566" height="566">
+    </div>
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/panel.js"></script>
+</body>
+</html>

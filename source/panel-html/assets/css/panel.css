@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #4A58FC;
+}
+
+body{
+    font-family: YekanBakhFuNum;
+    font-size: 16px;
+    text-align: right;
+    direction: rtl;
+
+    display: flex;
+    min-height: 100vh;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a, a:visited {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 15px;
+    gap: 5px;
+    border: none;
+    background: var(--color-primary);
+    border-radius: 5px;
+    color: #FFF;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-block{
+    display: flex;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    color: #696969;
+    margin-bottom: 10px;
+}
+
+input[type="text"].form-control, input[type="email"].form-control,input[type="password"].form-control {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #D8D8D8;
+    padding: 15px;
+    width: 100%;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+input, button {
+    font-family: 'YekanBakhFuNum';
+}
+
+
+/* Start: Panel */
+body.panel-login{
+    background: url("../images/login-background.png") no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    background: #FFF;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    align-items: center;
+}
+
+.panel-signup .login-container{
+    width: 450px;
+    display: block;
+}
+
+.login-right > img {
+    display: block;
+    margin: 20px auto;
+}
+
+.login-right h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.panel-password-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.panel-offer-signup {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login-container > img {
+    width: 100%;
+    height: auto;
+}
+
+/* End: Panel */
+/* Start: Panel Signup */
+.password-strong-meter:after {
+    content: "خیلی ضعیف";
+}
+
+.password-strong-meter {
+    background: rgb(233 30 99 / 20%);
+    color: #E91E63;
+    height: 28px;
+    padding: 0px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.password-strong-meter {}
+
+.normal.password-strong-meter {
+    background: rgb(74 88 252 / 20%);
+    color: #4A58FC;
+}
+
+.weak.password-strong-meter {
+    background: rgb(255 165 0 / 20%);
+    color: orange;
+}
+
+.weak.password-strong-meter:after {
+    content: "متوسط";
+}
+
+.normal.password-strong-meter:after {
+    content: "متوسط";
+}
+
+.password-strong-meter.strong {
+    background: rgb(76 175 80 / 20%);
+    color: #4CAF50;
+}
+
+.password-strong-meter.strong:after {
+    content: "پر زور";
+}
+
+.btn:disabled {
+    background: #C9C9C9;
+}
+/* End: Panel Sign up */
