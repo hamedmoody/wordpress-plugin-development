@@ -92,8 +92,9 @@ body.panel-login{
     display: block;
 }
 
-.login-right > img {
+.login-right > .site-logo {
     display: block;
+    text-align: center;
     margin: 20px auto;
 }
 
@@ -167,3 +168,205 @@ body.panel-login{
     background: #C9C9C9;
 }
 /* End: Panel Sign up */
+
+.panel-logged-in{
+    background: #D5D5DE;
+}
+
+.panel-container {
+    width: 1440px;
+    background: #F6F6F6;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.panel-container > aside {
+    background: #FFF;
+    border-radius: 0 25px 25px 0;
+    padding: 25px 15px;
+}
+
+.panel-container .site-logo img {
+    width: 168px;
+}
+
+.panel-container .site-logo {
+    display: block;
+    text-align: center;
+}
+
+.user-info {
+    background: #F3F3F3;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 48px auto 28px;
+    gap: 5px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.user-info img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.user-info:before {
+    content: "";
+    background: #29EC00;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border: 1px solid #FFF;
+}
+
+.user-info span {
+    color: #9A9A9A;
+    direction: ltr;
+    display: inline-block;
+}
+
+.user-info a {
+    background: #FFF;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+}
+
+.panel-container aside > p {
+    font-weight: 700;
+    color: #979797;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.panel-container aside > ul > li > a {
+    padding: 15px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #474747;
+    position: relative;
+}
+
+.panel-container aside ul {
+    list-style: none inside none;
+}
+
+.panel-container aside > ul > li.open {
+    background: #F4F4F4;
+    border-radius: 5px;
+}
+
+.panel-container aside > ul > li > a .badge {
+    position: absolute;
+    left: 10px;
+}
+
+.panel-container aside > ul ul a {
+    color: #474747;
+    display: block;
+    padding: 10px 25px 10px 10px;
+    border-radius: 5px;
+}
+
+.panel-container aside > ul ul {
+    padding: 0 10px 10px 10px;
+}
+
+.badge {
+    background: #ededed;
+    min-width: 28px;
+    min-height: 28px;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.badge.badger-danger {
+    color: #FF0033;
+    background: rgb(255 0 51 / 15%);
+}
+
+.panel-container aside > ul a {
+    color: var(--color-primary);
+}
+
+.panel-container aside > ul ul a.current {
+    color: var(--color-primary);
+    background: rgb(66 86 166 / 15%);
+}
+
+main {
+    padding: 15px;
+}
+
+.dashboard-user-widgets {
+    display: grid;
+    grid-template-columns: auto 400px;
+    gap: 20px;
+}
+
+.widget {
+    background: #FFF;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.widget header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F1F1F1;
+    position: relative;
+}
+
+.widget header h2 {
+    font-size: 18px;
+}
+
+.widget-body {
+    margin-top: 15px;
+}
+
+.registered-user {
+    display: grid;
+    grid-template-columns: 48px auto 110px;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.registered-user img {
+    border-radius: 50%;
+}
+
+.registered-user span {
+    color: #9C9C9C;
+}
+
+.registered-user strong {
+    font-weight: 600;
+}
+
+.view-all-tickets {
+    position: absolute;
+    left: 0;
+    padding: 6px 10px;
+}
