@@ -58,8 +58,16 @@ a, a:visited {
     color: #696969;
     margin-bottom: 10px;
 }
+.form-group label.label-hidden {
+    display: none;
+}
 
-input[type="text"].form-control, input[type="email"].form-control,input[type="password"].form-control {
+input[type="text"].form-control,
+input[type="email"].form-control,
+input[type="search"].form-control,
+textarea.form-control,
+select.form-control,
+input[type="password"].form-control {
     display: block;
     border-radius: 5px;
     border: 1px solid #D8D8D8;
@@ -71,7 +79,7 @@ input[type="text"].form-control, input[type="email"].form-control,input[type="pa
     margin: 20px 0;
 }
 
-input, button {
+input, button, select, textarea {
     font-family: 'YekanBakhFaNum';
 }
 
@@ -454,4 +462,118 @@ table.table td .btn-outline:hover {
     background: var(--color-primary);
     border-color: var(--color-primary);
     color: #FFF;
+}
+
+
+#ticket-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ticket-filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.ticket-filters .form-group {
+    margin: 0;
+}
+
+.ticket-filters input.form-control, .ticket-filters select.form-control {
+    padding: 10px;
+}
+
+form#ticket-search .btn {
+    padding: 10px;
+}
+
+.btn-ticket-new {
+    position: absolute;
+    left: 0;
+    padding: 5px 15px;
+    background: rgb(74 85 216 / 15%);
+    color: #4A55D8;
+}
+
+
+.pagination > a, .pagination > span {
+    background: #F0F0F0;
+    padding: 7px;
+    display: inline-block;
+    min-width: 42px;
+    border-radius: 5px;
+    text-align: center;
+    color: #474747;
+}
+
+.pagination {
+    display: flex;
+    gap: 5px;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+}
+
+.pagination .current {
+    background: #4A58FC;
+    color: #FFF;
+}
+
+.pagination .dots {
+    background: no-repeat;
+}
+
+.new-ticket-info-fields {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.upload {
+    direction: ltr;
+    border: 1px solid #E1E1E1;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto 32px;
+    gap: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+.upload-file-name {
+    display: grid;
+    grid-template-columns: 32px auto 32px;
+    align-items: center;
+}
+
+.file-name span {
+    color: rgb(89 89 89 / 35%);
+}
+
+.upload-progress {
+    height: 10px;
+    border-radius: 8px;
+    background: #F0F0F0;
+    margin-top: 10px;
+    position: relative;
+}
+
+.upload-progress div {
+    background: var(--color-primary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 8px;
+    width: 93%;
+}
+
+svg.remove-upload {
+    cursor: pointer;
+}
+
+.new-ticket-info-fields + .form-group, .new-ticket-info-fields .form-group {
+    margin-top: 0;
 }
