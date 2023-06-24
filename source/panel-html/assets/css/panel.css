@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: YekanBakhFuNum;
+    font-family: YekanBakhFaNum;
     font-size: 16px;
     text-align: right;
     direction: rtl;
@@ -37,13 +37,20 @@ a, a:visited {
     border-radius: 5px;
     color: #FFF;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 500;
     cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
 .btn-block{
     display: flex;
     width: 100%;
+}
+
+.btn-outline {
+    color: #9C9C9C;
+    background: no-repeat;
+    border: 1px solid;
 }
 
 .form-group label {
@@ -65,7 +72,7 @@ input[type="text"].form-control, input[type="email"].form-control,input[type="pa
 }
 
 input, button {
-    font-family: 'YekanBakhFuNum';
+    font-family: 'YekanBakhFaNum';
 }
 
 
@@ -123,7 +130,7 @@ body.panel-login{
 /* End: Panel */
 /* Start: Panel Signup */
 .password-strong-meter:after {
-    content: "خیلی ضعیف";
+    content: "ÃƒËœÃ‚Â®Ãƒâ€ºÃ…â€™Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ€ºÃ…â€™ ÃƒËœÃ‚Â¶ÃƒËœÃ‚Â¹Ãƒâ€ºÃ…â€™Ãƒâ„¢Ã‚Â";
 }
 
 .password-strong-meter {
@@ -148,11 +155,11 @@ body.panel-login{
 }
 
 .weak.password-strong-meter:after {
-    content: "متوسط";
+    content: "Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚ÂªÃƒâ„¢Ã‹â€ ÃƒËœÃ‚Â³ÃƒËœÃ‚Â·";
 }
 
 .normal.password-strong-meter:after {
-    content: "متوسط";
+    content: "Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚ÂªÃƒâ„¢Ã‹â€ ÃƒËœÃ‚Â³ÃƒËœÃ‚Â·";
 }
 
 .password-strong-meter.strong {
@@ -161,7 +168,7 @@ body.panel-login{
 }
 
 .password-strong-meter.strong:after {
-    content: "پر زور";
+    content: "Ãƒâ„¢Ã‚Â¾ÃƒËœÃ‚Â± ÃƒËœÃ‚Â²Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â±";
 }
 
 .btn:disabled {
@@ -240,6 +247,11 @@ body.panel-login{
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 0%);
+    transition: 0.3s ease-in;
+}
+
+.user-info:hover a {
     box-shadow: 0 3px 6px rgba(0,0,0,.16);
 }
 
@@ -258,6 +270,11 @@ body.panel-login{
     gap: 5px;
     color: #474747;
     position: relative;
+    transition: 0.3s ease-in;
+}
+
+.panel-container aside > ul > li > a:hover {
+    background: #f6f6f6;
 }
 
 .panel-container aside ul {
@@ -297,9 +314,22 @@ body.panel-login{
     padding: 0 5px;
 }
 
-.badge.badger-danger {
+.badger-danger {
     color: #FF0033;
     background: rgb(255 0 51 / 15%);
+}
+.badge-info{
+    color: #0099FF;
+    background: rgb(0 153 255 / 15%);
+}
+.badge-warning {
+    background: rgb(255 160 0 / 15%);
+    color: #FFA000;
+}
+
+.badge-success {
+    color: #00C906;
+    background: rgb(0 201 6 / 15%);
 }
 
 .panel-container aside > ul a {
@@ -339,6 +369,7 @@ main {
 
 .widget header h2 {
     font-size: 18px;
+    font-weight: 600;
 }
 
 .widget-body {
@@ -359,6 +390,8 @@ main {
 
 .registered-user span {
     color: #9C9C9C;
+    font-size: 14px;
+    text-align: left;
 }
 
 .registered-user strong {
@@ -369,4 +402,56 @@ main {
     position: absolute;
     left: 0;
     padding: 6px 10px;
+}
+
+
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.table th {
+    background: rgb(66 86 166 / 10%);
+    color: #949494;
+    font-weight: 500;
+}
+
+table.table th, table.table td {
+    padding: 10px;
+}
+
+table.table tr th:first-child,
+table.table tr td:first-child{
+    border-radius: 0 5px 5px 0;
+}
+
+table.table tr th:last-child,
+table.table tr td:last-child{
+    border-radius:  5px 0 0 5px;
+    width: 90px;
+}
+
+table.table td .btn {
+    padding: 1px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+table.table td {
+    color: #474747;
+}
+
+table.table tr td:first-child, table.table tr th:first-child {
+    text-align: center;
+}
+
+table.table tbody tr:nth-child(even) td {
+    background: #f6f6f6;
+}
+
+table.table td .btn-outline:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #FFF;
 }

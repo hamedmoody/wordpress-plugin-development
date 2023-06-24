@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/fontiran.css">
     <link rel="stylesheet" href="assets/css/panel.css">
+    <link rel="stylesheet" href="assets/css/toastr.min.css">
 </head>
 <body class="panel panel-logged-in">
     <div class="panel-container">
@@ -193,7 +194,7 @@
                         </a>
                     </header>
                     <div class="widget-body">
-                        <table>
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th>#</th>
@@ -207,6 +208,43 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
+                                    <td>ادامه دوره چالش 7 روزه طراحی اپ فیلیمو</td>
+                                    <td><span class="badge badge-warning">در انتظار پاسخ</span></td>
+                                    <td><span class="badge badge-danger">ضروری</span></td>
+                                    <td>1402/07/15 15:12</td>
+                                    <td><a href="#" class="btn btn-outline">مشاهده</a></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>ادامه دوره چالش 7 روزه طراحی اپ فیلیمو</td>
+                                    <td><span class="badge badge-success">پاسخ داده شده</span></td>
+                                    <td><span class="badge badge-info">عادی</span></td>
+                                    <td>1402/07/15 15:12</td>
+                                    <td><a href="#" class="btn btn-outline">مشاهده</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>ادامه دوره چالش 7 روزه طراحی اپ فیلیمو</td>
+                                    <td><span class="badge">بسته شده</span></td>
+                                    <td><span class="badge">عادی</span></td>
+                                    <td>1402/07/15 15:12</td>
+                                    <td><a href="#" class="btn btn-outline">مشاهده</a></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>ادامه دوره چالش 7 روزه طراحی اپ فیلیمو</td>
+                                    <td><span class="badge badge-warning">در انتظار پاسخ</span></td>
+                                    <td><span class="badge badge-danger">ضروری</span></td>
+                                    <td>1402/07/15 15:12</td>
+                                    <td><a href="#" class="btn btn-outline">مشاهده</a></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>ادامه دوره چالش 7 روزه طراحی اپ فیلیمو</td>
+                                    <td><span class="badge badge-warning">در انتظار پاسخ</span></td>
+                                    <td><span class="badge badger-danger">ضروری</span></td>
+                                    <td>1402/07/15 15:12</td>
+                                    <td><a href="#" class="btn btn-outline">مشاهده</a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -220,15 +258,23 @@
     <script>
         var options = {
             chart: {
+                fontFamily: 'YekanBakhFaNum',
                 height: 280,
                 type: "area"
             },
             dataLabels: {
                 enabled: false
             },
+            dropShadow: {
+                enabled: true,
+                top: 0,
+                left: 0,
+                blur: 3,
+                opacity: 0.5
+            },
             series: [
                 {
-                    name: "Series 1",
+                    name: "ثبت نام جدید",
                     data: [45, 52, 38, 45, 19, 23, 2]
                 }
             ],
@@ -243,13 +289,13 @@
             },
             xaxis: {
                 categories: [
-                    "01 Jan",
-                    "02 Jan",
-                    "03 Jan",
-                    "04 Jan",
-                    "05 Jan",
-                    "06 Jan",
-                    "07 Jan"
+                    "1 خرداد",
+                    "2 خردداد",
+                    "3 خردداد",
+                    "4 خردداد",
+                    "5 خردداد",
+                    "6 خردداد",
+                    "7 خردداد",
                 ]
             }
         };
@@ -258,6 +304,7 @@
 
         chart.render();
     </script>
+    <script src="assets/js/toastr.min.js"></script>
     <script src="assets/js/panel.js"></script>
 </body>
 </html>
