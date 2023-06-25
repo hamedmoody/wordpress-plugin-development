@@ -13,6 +13,7 @@ body{
     font-size: 16px;
     text-align: right;
     direction: rtl;
+    scroll-behavior: smooth;
 
     display: flex;
     min-height: 100vh;
@@ -44,7 +45,7 @@ a, a:visited {
 
 .btn:before{
     content: "";
-    background: url("../images/3-dots-fade-black-36.svg") no-repeat center;
+    background: url("../images/spinner.svg") no-repeat center;
     width: 0;
     height: 24px;
     background-size: 100%;
@@ -86,6 +87,15 @@ input[type="password"].form-control {
     border: 1px solid #D8D8D8;
     padding: 15px;
     width: 100%;
+}
+
+input[type="text"].form-control:focus,
+input[type="email"].form-control:focus,
+input[type="search"].form-control:focus,
+textarea.form-control:focus,
+select.form-control:focus,
+input[type="password"].form-control:focus{
+    outline: 1px solid #2196f3;
 }
 
 .form-group {
@@ -644,4 +654,77 @@ svg.remove-upload {
     border-radius: 10px;
     border: 1px dashed #9C9C9C;
     cursor: pointer;
+}
+
+.ticket-message {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.ticket-message > img {
+    border-radius: 50%;
+}
+
+.ticket-message-box {
+    background: #FFF;
+    padding: 15px 15px 0 15px;
+    border-radius: 10px;
+    color: #474747;
+    font-size: 15px;
+    position: relative;
+}
+
+.ticket-message-footer {
+    border-top: 1px dashed #E3E3E3;
+    padding: 10px 0px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    direction: ltr;
+    align-items: center;
+    margin-top: 15px;
+}
+
+a.ticket-attachment {
+    display: flex;
+    gap: 5px;
+}
+
+a.ticket-attachment span {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ticket-message.ticket-message-left {
+    flex-direction: row-reverse;
+}
+
+p.ticket-closed {
+    text-align: center;
+    padding: 20px;
+}
+
+p.ticket-closed span {
+    color: #4A55D8;
+    background: rgb(74 85 216 / 15%);
+    padding: 5px 15px;
+}
+
+a.ticket-reply {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url("../images/redo.svg") no-repeat;
+    background-size: 100%;
+    left: 15px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.ticket-message:hover a.ticket-reply {
+    opacity: 1;
 }
