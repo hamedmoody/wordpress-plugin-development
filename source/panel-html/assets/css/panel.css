@@ -42,6 +42,19 @@ a, a:visited {
     transition: 0.3s ease-in;
 }
 
+.btn:before{
+    content: "";
+    background: url("../images/3-dots-fade-black-36.svg") no-repeat center;
+    width: 0;
+    height: 24px;
+    background-size: 100%;
+    transition: 0.3s;
+}
+
+.btn.loading:before{
+    width: 24px;
+}
+
 .btn-block{
     display: flex;
     width: 100%;
@@ -310,6 +323,16 @@ body.panel-login{
     padding: 0 10px 10px 10px;
 }
 
+.panel-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel-title .btn {
+    padding: 5px 15px;
+}
+
 .badge {
     background: #ededed;
     min-width: 28px;
@@ -540,6 +563,7 @@ form#ticket-search .btn {
     gap: 10px;
     text-align: left;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .upload-file-name {
@@ -574,6 +598,50 @@ svg.remove-upload {
     cursor: pointer;
 }
 
-.new-ticket-info-fields + .form-group, .new-ticket-info-fields .form-group {
+.new-ticket-info-fields + .form-group,
+.new-ticket-info-fields .form-group {
     margin-top: 0;
+}
+
+.uploaded-document{
+    display: none;
+}
+
+.upload.uploaded .upload-document {
+    display: none;
+}
+
+.upload.uploaded .uploaded-document {
+    display: block;
+}
+
+.upload.uploaded .upload-file-name, .upload.uploaded .upload-file-name span {
+    color: #2BD500;
+}
+
+.upload.uploaded .upload-percent {
+    display: none;
+}
+
+.upload.uploaded .upload-progress {
+    display: none;
+}
+
+.upload.uploaded {
+    border-color: #2BD500;
+}
+
+
+.upload-here input {
+    display: none;
+}
+
+.upload-here label {
+    color: #9C9C9C;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px dashed #9C9C9C;
+    cursor: pointer;
 }
