@@ -7,7 +7,7 @@ jQuery(document).ready( function( $ ){
     toastr.options.progressBar      = true;
     toastr.options.rtl              = true;
 
-    toastr.success('با موفقیت وارد سایت شدید', 'ورود موفق')
+    toastr.success('با موفقیت وارد سایت شدید', 'ورود موفق');
 
 
 } );

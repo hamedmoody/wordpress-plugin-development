@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +33,7 @@ a, a:visited {
 
 .btn {
     display: inline-flex;
-    padding: 15px;
+    padding: 8px 15px;
     gap: 5px;
     border: none;
     background: var(--color-primary);
@@ -50,6 +52,10 @@ a, a:visited {
     height: 24px;
     background-size: 100%;
     transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #3945d3;
 }
 
 .btn.loading:before{
@@ -87,6 +93,23 @@ input[type="password"].form-control {
     border: 1px solid #D8D8D8;
     padding: 15px;
     width: 100%;
+}
+
+input:disabled {
+    background: #E7E7E7;
+}
+
+.ltr{
+    direction: ltr;
+}
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align: left;
+}
+.align-center{
+    text-align: center;
 }
 
 input[type="text"].form-control:focus,
@@ -161,7 +184,7 @@ body.panel-login{
 /* End: Panel */
 /* Start: Panel Signup */
 .password-strong-meter:after {
-    content: "ÃƒËœÃ‚Â®Ãƒâ€ºÃ…â€™Ãƒâ„¢Ã¢â‚¬Å¾Ãƒâ€ºÃ…â€™ ÃƒËœÃ‚Â¶ÃƒËœÃ‚Â¹Ãƒâ€ºÃ…â€™Ãƒâ„¢Ã‚Â";
+    content: "قوی";
 }
 
 .password-strong-meter {
@@ -186,11 +209,11 @@ body.panel-login{
 }
 
 .weak.password-strong-meter:after {
-    content: "Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚ÂªÃƒâ„¢Ã‹â€ ÃƒËœÃ‚Â³ÃƒËœÃ‚Â·";
+    content: "ضعیف";
 }
 
 .normal.password-strong-meter:after {
-    content: "Ãƒâ„¢Ã¢â‚¬Â¦ÃƒËœÃ‚ÂªÃƒâ„¢Ã‹â€ ÃƒËœÃ‚Â³ÃƒËœÃ‚Â·";
+    content: "متوسط";
 }
 
 .password-strong-meter.strong {
@@ -199,7 +222,7 @@ body.panel-login{
 }
 
 .password-strong-meter.strong:after {
-    content: "Ãƒâ„¢Ã‚Â¾ÃƒËœÃ‚Â± ÃƒËœÃ‚Â²Ãƒâ„¢Ã‹â€ ÃƒËœÃ‚Â±";
+    content: "خیلی ضعیف";
 }
 
 .btn:disabled {
@@ -728,3 +751,131 @@ a.ticket-reply {
 .ticket-message:hover a.ticket-reply {
     opacity: 1;
 }
+
+
+/*Start: Profile*/
+form#edit-profile {
+    display: grid;
+    grid-template-columns: auto 220px;
+    gap: 15px;
+    align-items: start;
+}
+
+.personal-info-field {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.personal-info-field .form-group {
+    margin: 0;
+}
+
+.avatar-uploader {
+    position: relative;
+}
+
+.personal-avatar input[type='file'] {
+    display: none;
+}
+
+.personal-avatar img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.personal-avatar a {
+    position: absolute;
+    top: 0;
+}
+
+.avatar-uploader label {
+    display: block;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+
+.avatar-uploader label svg {
+    width: 42px;
+}
+
+.avatar-uploader p {
+    direction: ltr;
+    text-align: center;
+    font-size: 14px;
+}
+.change-password-fields {
+    display: grid;
+    grid-template-columns: auto auto 200px;
+    gap: 20px;
+}
+
+.change-password-fields .form-group {
+    margin: 0;
+}
+.form-group-password {
+    position: relative;
+}
+
+.form-group-password svg {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    transition: 0.3s;
+}
+
+.form-group-password svg.eye {
+    opacity: 0;
+}
+
+.form-group-password.hide-password svg.eye {
+    opacity: 1;
+}
+
+.form-group-password.hide-password svg.eye-slash {
+    opacity: 0;
+}
+
+#change-password .password-strong-meter {
+    padding: 13px;
+    height: auto;
+    text-align: center;
+}
+
+.avatar-cropper-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #00000059;
+    z-index: 2;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-cropper-modal-container {
+    background: #FFF;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.avatar-cropper-modal.active {
+    display: flex;
+}
+
+button#crop-avatar {
+    margin-top: 30px;
+}
+
+/*End: Profile*/
