@@ -121,6 +121,22 @@ input[type="password"].form-control:focus{
     outline: 1px solid #2196f3;
 }
 
+.form-group .error {
+    display: none;
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.form-group.error .error {
+    display: block;
+}
+
+.form-group.error input {
+    border-color: red;
+    color: red;
+}
+
 .form-group {
     margin: 20px 0;
 }
@@ -146,6 +162,16 @@ body.panel-login{
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
     align-items: center;
+}
+
+.remember-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.remember-group label {
+    margin: 0;
 }
 
 .panel-signup .login-container{
@@ -184,7 +210,7 @@ body.panel-login{
 /* End: Panel */
 /* Start: Panel Signup */
 .password-strong-meter:after {
-    content: "قوی";
+    content: "خیلی ضعیف";
 }
 
 .password-strong-meter {
@@ -195,8 +221,6 @@ body.panel-login{
     border-radius: 4px;
     font-weight: 600;
 }
-
-.password-strong-meter {}
 
 .normal.password-strong-meter {
     background: rgb(74 88 252 / 20%);
@@ -222,7 +246,16 @@ body.panel-login{
 }
 
 .password-strong-meter.strong:after {
-    content: "خیلی ضعیف";
+    content: "قوی";
+}
+
+.password-strong-meter.good:after {
+    content: "خوب";
+}
+
+.password-strong-meter.good {
+    background: rgb(103 58 183 / 20%);
+    color: #673AB7;
 }
 
 .btn:disabled {
