@@ -808,6 +808,32 @@ form#edit-profile {
     position: relative;
 }
 
+span.avatar-upload-progress {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    height: 5px;
+    top: 10px;
+    background: #ffffff63;
+    border-radius: 8px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+span.avatar-upload-progress span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #00ff0a;
+    width: 95%;
+    border-radius: 8px;
+}
+
+.avatar-uploader.uploading span.avatar-upload-progress {
+    opacity: 1;
+}
+
 .personal-avatar input[type='file'] {
     display: none;
 }
