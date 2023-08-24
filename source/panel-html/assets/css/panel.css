@@ -16,12 +16,11 @@ body{
     text-align: right;
     direction: rtl;
     scroll-behavior: smooth;
-
     display: flex;
     min-height: 100vh;
-    padding: 25px;
-    align-items: center;
-    justify-content: center;
+    padding: 25px 0;
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
 
 
@@ -30,6 +29,8 @@ a, a:visited {
     color: var(--color-primary);
     font-weight: 600;
 }
+
+
 
 .btn {
     display: inline-flex;
@@ -268,10 +269,11 @@ body.panel-login{
 }
 
 .panel-container {
-    width: 1440px;
+    width: 100%;
     background: #F6F6F6;
     border-radius: 25px;
     display: grid;
+    margin: auto;
     grid-template-columns: 300px auto;
 }
 
@@ -938,3 +940,41 @@ button#crop-avatar {
 }
 
 /*End: Profile*/
+
+@media screen and ( max-width: 768px ) {
+    .panel-login .login-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and ( max-width: 1200px ) {
+    .dashboard-user-widgets{
+        grid-template-columns: auto;
+    }
+}
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .panel-container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .panel-container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .panel-container {
+        max-width: 1140px;
+    }
+
+}
+@media (min-width: 1400px) {
+    .panel-container {
+        max-width: 1320px;
+    }
+}
