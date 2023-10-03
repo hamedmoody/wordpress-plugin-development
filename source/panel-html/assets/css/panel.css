@@ -85,6 +85,7 @@ a, a:visited {
 
 input[type="text"].form-control,
 input[type="email"].form-control,
+input[type="number"].form-control,
 input[type="search"].form-control,
 textarea.form-control,
 select.form-control,
