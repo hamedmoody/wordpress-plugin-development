@@ -1,0 +1,97 @@
+<div class="dcs-container">
+	<h1>عنوان پست</h1>
+	<div class="dcs-cols">
+		<div class="dcs-main-col">
+			<div class="dcs-player">
+				<a href="#" class="dcs-play">
+					<svg width="36px" height="36px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M21.4086 9.35258C23.5305 10.5065 23.5305 13.4935 21.4086 14.6474L8.59662 21.6145C6.53435 22.736 4 21.2763 4 18.9671L4 5.0329C4 2.72368 6.53435 1.26402 8.59661 2.38548L21.4086 9.35258Z" fill="#1C274C"/>
+					</svg>
+				</a>
+				<video src="https://dl.daneshjooyar.com/mvie/Moodi_Hamed/Wordpress-Plugin-Development/Wordpress-Plugin-Development-Demo-720.mp4"></video>
+			</div>
+
+			<div class="dcs-playlist">
+				<h2><?php esc_html_e( 'Playlist', 'daneshjooyar-course-shop' );?></h2>
+				<div class="dcs-playlist-items">
+					<?php foreach( range(1, 19) as $item_index ):?>
+						<?php
+						$lock = rand(0, 1);
+						?>
+						<div class="dcs-item" data-url="https://dl.daneshjooyar.com/mvie/Moodi_Hamed/Wordpress-Plugin-Development/Wordpress-Plugin-Development-Demo-720.mp4">
+							<span><?php echo $item_index;?></span>
+							<?php if( ! $lock ):?>
+								<img src="<?php echo DANESHJOOYAR_COURSE_SHOP_IMAGE;?>play.svg" class="dcs-play" alt="play-icon">
+								<img src="<?php echo DANESHJOOYAR_COURSE_SHOP_IMAGE;?>pause.svg" class="dcs-pause" alt="pause-icon">
+							<?php else:?>
+								<img src="<?php echo DANESHJOOYAR_COURSE_SHOP_IMAGE;?>lock.svg" class="dcs-lock" alt="lock-icon">
+							<?php endif;?>
+							<p>
+								چگونه یک افزونه خوب بنویسیم
+								<span class="dcs-badge">
+									<?php esc_html_e( 'Premium', 'daneshjooyar-course-shop' );?>
+								</span>
+							</p>
+							<span>
+								12:16
+							</span>
+						</div>
+					<?php endforeach;?>
+				</div>
+			</div>
+
+			<div class="dcs-content">
+				Content is here
+			</div>
+		</div>
+		<div class="dcs-side-col">
+			<div class="dcs-course-information">
+				<div class="dcs-course-teacher">
+					<img src="https://www.daneshjooyar.com/wp-content/uploads/2021/09/6142d51ad4d9b.jpg" alt="" width="116" height="116">
+					<p>
+						حامد مودی
+					</p>
+				</div>
+				<p>
+					<?php esc_html_e( 'Duration', 'daneshjooyar-course-shop' );?>
+					<span>
+						12:19
+					</span>
+				</p>
+				<p>
+					<?php esc_html_e( 'Students', 'daneshjooyar-course-shop' );?>
+					<span>
+						123
+					</span>
+				</p>
+				<p>
+					<?php esc_html_e( 'Date', 'daneshjooyar-course-shop' );?>
+					<span>
+						<?php the_date( 'Y-m-d' );?>
+					</span>
+				</p>
+
+				<div class="dcs-is-student">
+					<?php esc_html_e( 'Your are student', 'daneshjooyar-course-shop' );?>
+				</div>
+
+				<div class="dcs-course-price dcs-has-discount">
+					<span class="dcs-discount-percent">
+						64%
+						<?php esc_html_e( 'off', 'daneshjooyar-course-shop' );?>
+					</span>
+					<div class="dcs-course-price-amount">
+						<del>989,000</del>
+						<ins>699,000</ins>
+						<span><?php esc_html_e( 'Tooman', 'daneshjooyar-course-shop' );?></span>
+					</div>
+				</div>
+				<a href="#" class="dcs-btn dcs-btn-primary">
+					<?php esc_html_e( 'Buy this course', 'daneshjooyar-course-shop' );?>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div>Comments</div>
+
+</div>
