@@ -1,0 +1,10 @@
+<VirtualHost *:443>
+    ServerAdmin webmaster@plugindev.local
+    DocumentRoot "C:/xampp/htdocs/plugindev"
+    ServerName plugindev.local
+	SSLEngine on
+    SSLCertificateFile "crt/site.test/server.crt"
+    SSLCertificateKeyFile "crt/site.test/server.key"
+    ErrorLog "logs/plugindev.local-error.log"
+    CustomLog "logs/plugindev.local-access.log" common
+</VirtualHost>
