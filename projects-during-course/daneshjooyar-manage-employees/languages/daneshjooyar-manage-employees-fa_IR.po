@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Manage Employees\n"
+"POT-Creation-Date: 2023-04-05 08:44+0330\n"
+"PO-Revision-Date: 2023-04-05 08:50+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: daneshjooyar-manage-employees.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: View/form_employees.php:30
+msgid "Your first name"
+msgstr "نام کوچک شما"
+
+#. translators: 1 => city & 2 => country, thanks you
+#: View/list_employees.php:8
+#, php-format
+msgid "I am from %1$s in country %2$s"
+msgstr "من از کشور %2$s از شهر %1$s هستم"
+
+#: admin/Employee_List_Table.php:12
+msgid "User id"
+msgstr "شناسه"
+
+#: admin/Employee_List_Table.php:13
+msgid "Name "
+msgstr "نام"
+
+#: admin/Employee_List_Table.php:14
+msgid "Family"
+msgstr "فامیل"
+
+#: admin/Employee_List_Table.php:15
+msgid "Birthdate"
+msgstr ""
+
+#: admin/Employee_List_Table.php:16
+msgid "Avatar"
+msgstr ""
+
+#: admin/Employee_List_Table.php:17
+msgid "Weight"
+msgstr ""
+
+#: admin/Employee_List_Table.php:18
+msgid "Mission"
+msgstr ""
+
+#: admin/Employee_List_Table.php:19
+msgid "Date"
+msgstr ""
+
+#: admin/menus.php:8 admin/menus.php:9
+msgid "Employees"
+msgstr "کارکنان"
+
+#: admin/menus.php:20 admin/menus.php:21
+msgid "New employee"
+msgstr "کارمند جدید"
+
+#: daneshjooyar-manage-employees.php:80
+#, php-format
+msgid "we have %s employee"
+msgid_plural "we have %s employees"
+msgstr[0] "ما %s کارمند داریم"
+msgstr[1] "ما %s کارمند داریم"
+
+#. Plugin Name of the plugin/theme
+msgid "Manage Employees"
+msgstr "مدیریت کارکنان"
+
+#. Plugin URI of the plugin/theme
+msgid "https://daneshjooyar.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugins is for manage employees"
+msgstr "این افزونه برای مدیریت بهتر کارکنان طراحی شده است"
+
+#. Author of the plugin/theme
+msgid "Hamed Moodi"
+msgstr "حامد مودی"
+
+#. Author URI of the plugin/theme
+msgid "https://daneshjooyar.com/teacher/h_m_mood"
+msgstr ""
+
+#~ msgid "my Title tag"
+#~ msgstr "\" onClick=\"alert('xyz');"
+
+#~ msgid "Employee list table"
+#~ msgstr "جدول کارمندان من <script>alert('Test');</script>"
+
+#~ msgctxt "Airplane"
+#~ msgid "%s item"
+#~ msgid_plural "%s items"
+#~ msgstr[0] "%s فروند"
+#~ msgstr[1] "%s فروند"
+
+#~ msgctxt "Camel"
+#~ msgid "%s item"
+#~ msgid_plural "%s items"
+#~ msgstr[0] "%s نفر"
+#~ msgstr[1] "%s نفر"
+
+#~ msgid "%d comment"
+#~ msgid_plural "%d comments"
+#~ msgstr[0] "%d نظرها"
+#~ msgstr[1] "%d دیدگاه"
+
+#~ msgctxt "Save human life"
+#~ msgid "save"
+#~ msgstr "نجات بده"
+
+#~ msgctxt "Save form"
+#~ msgid "save"
+#~ msgstr "ذخیره"
