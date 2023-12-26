@@ -1,0 +1,134 @@
+
+.p10 {
+    padding: 10px;
+}
+
+.dk {
+    direction: rtl;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.dk-colors {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.dk h2 {
+    font-size: 24px;
+    max-height: 60px;
+}
+
+.dk-right {
+    width: 30%;
+}
+
+.dk-left {
+    width: 68%;
+}
+
+.dk-color {
+    color: #a2a2a2;
+    font-size: 12px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.dk-colors {
+    position: absolute;
+    z-index: 2;
+}
+
+.dk-description p {
+    font-weight: lighter !important;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.dk-thumbnails {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    padding: 0 3px;
+}
+
+.dk-thumbnails img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #c8c7c7;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.dk .active {
+    border-color: red;
+}
+
+.dk-thumbnails img:hover {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dk-left section .dk-right {
+
+}
+
+.dk-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dk-price a {
+    color: white;
+    background-color: #ef4056;
+    padding: 8px 15px;
+    border-radius: 28px;
+}
+
+.dk-price .dk-discount {
+    background-color: red;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+.dk-price del {
+    color: red;
+    margin: 0 5px;
+
+}
+
+.dk-price ins {
+    color: green;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.dk-price a:hover {
+    color: white !important;
+    background-color: #a4303d;
+}
