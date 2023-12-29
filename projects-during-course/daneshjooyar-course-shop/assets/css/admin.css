@@ -1,0 +1,110 @@
+#dcs-course-data-table tbody tr td:nth-child(even) input[type='text'],
+#dcs-course-data-table tbody tr td:nth-child(even) input[type='url'],
+#dcs-course-data-table tbody tr td:nth-child(even) input[type='number'],
+#dcs-course-data-table tbody tr td:nth-child(even) input[type='datetime-local'],
+#dcs-course-data-table tbody tr td:nth-child(even) select{
+    width: 400px;
+}
+
+.dcs_discoubt_base{
+    display: none;
+}
+
+.dcs_has_discount .dcs_discoubt_base{
+    display: table-row;
+}
+
+/**Start: Playlist**/
+table.dcs_playlist_table {
+    width: 100%;
+    direction: ltr;
+    border-collapse: collapse;
+}
+
+table.dcs_playlist_table tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+table.dcs_playlist_table input {
+    width: 100%;
+}
+table.dcs_playlist_table td:not(.dcs_playlist_input){
+    text-align: center;
+}
+table.dcs_playlist_table .dashicons-trash{
+    cursor: pointer;
+    color: red;
+}
+table.dcs_playlist_table .dashicons-move{
+    cursor: move;
+}
+
+.dcs_playlist_table tr{
+    transition: 0.3s background;
+}
+
+.dcs_playlist_table tbody tr.deleting {
+    background: #ffcaca !important;
+}
+
+tr.dcs_no_item td {
+    padding: 15px;
+    background: #ffe1e1;
+    border-radius: 8px;
+}
+
+img.dcs-spinner {
+    display: none;
+}
+
+tr.calculating img.dcs-spinner {
+    display: inline;
+}
+
+tr.calculating .dcs_duration {
+    display: none;
+}
+
+span.course-discount-percent {
+    background: red;
+    color: #FFF;
+    padding: 0px 2px;
+}
+
+.dcs-badge {
+    background: #e8e8e8;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+.dcs-badge.dcs-badge-publish {
+    color: green;
+    background: #e9ffe9;
+}
+
+.dcs-badge.dcs-badge-pending {
+    color: orange;
+    background: #fff7e8;
+}
+
+.dcs-badge.dcs-badge-failed {
+    color: red;
+    background: #ffebeb;
+}
+
+#dcs_course_reigster table td{
+    padding: 10px;
+}
+
+/**End: Playlist**/
+
+/* body.post-type-course_register a.page-title-action {
+    display: none;
+} */
+
+
+/* post_author => student user id
+post_date => register_date
+post_status => regsiter_status => publish, pending, failed
+post_parent => course id
+menu_order => final price */

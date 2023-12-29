@@ -1,0 +1,738 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Daneshjooyar Course Shop\n"
+"POT-Creation-Date: 2023-10-29 20:32+0330\n"
+"PO-Revision-Date: 2023-10-29 20:33+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: daneshjooyar-course-shop.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/enqueue.php:68
+msgid "Demo Uploader"
+msgstr "آپلودر دمو"
+
+#: includes/enqueue.php:69
+msgid "Are you sure for delete item?"
+msgstr "برای حذف آیتم مطمئنید؟"
+
+#: includes/functions-register.php:50 includes/payment.php:137
+msgid "Course is invalid"
+msgstr "دوره صحیح نیست"
+
+#: includes/functions-register.php:54
+msgid "User is invalid"
+msgstr "مدرس صحیح نیست"
+
+#: includes/functions-register.php:58
+msgid "Course is not publish"
+msgstr "دوره منتشر نشده"
+
+#: includes/metaboxes.php:9
+msgid "Course Data"
+msgstr "اطلاعات دوره"
+
+#: includes/metaboxes.php:16
+msgid "Course Playlist"
+msgstr "لیست پخش دوره"
+
+#: includes/metaboxes.php:23
+msgid "Course Reigster Data"
+msgstr "اطلاعات ثبت نامی دوره"
+
+#: includes/metaboxes.php:84
+msgid "Teacher is invalid"
+msgstr "مدرس صحیح نیست"
+
+#: includes/options.php:9 includes/options.php:10
+msgid "Options"
+msgstr "تنظیمات"
+
+#: includes/options.php:36
+msgid "Gateway settings"
+msgstr "تنظیمات درگاه"
+
+#: includes/options.php:43
+msgid "gateway api"
+msgstr "کلید Api درگاه"
+
+#: includes/payment.php:91
+msgid "invalid amount"
+msgstr "مقدار صحیح نیست"
+
+#: includes/payment.php:97
+msgid "invalid card"
+msgstr "کارت صحیح نیست"
+
+#: includes/payment.php:103
+msgid "invalid factor id"
+msgstr "شناسه فاکتور صحیح نیست"
+
+#: includes/post_type.php:9
+msgctxt "Post Type General Name"
+msgid "Courses"
+msgstr "دوره ها"
+
+#: includes/post_type.php:10
+msgctxt "Post Type Singular Name"
+msgid "Course"
+msgstr "دوره"
+
+#: includes/post_type.php:11 templates/archive-course.php:11
+msgid "Courses"
+msgstr "دوره ها"
+
+#: includes/post_type.php:12 includes/post_type.php:39
+msgid "Course"
+msgstr "دوره"
+
+#: includes/post_type.php:13
+msgid "Course Archives"
+msgstr "آرشیو دوره ها"
+
+#: includes/post_type.php:14
+msgid "Course Attributes"
+msgstr "ویژگی های دوره"
+
+#: includes/post_type.php:15
+msgid "Parent Course:"
+msgstr "دوره والد:"
+
+#: includes/post_type.php:16
+msgid "All Courses"
+msgstr "تمام دوره ها"
+
+#: includes/post_type.php:17
+msgid "Add New Course"
+msgstr "افزودن دوره جدید"
+
+#: includes/post_type.php:18
+msgid "Add Course"
+msgstr "افزودن دوره"
+
+#: includes/post_type.php:19
+msgid "New Course"
+msgstr "دوره جدید"
+
+#: includes/post_type.php:20
+msgid "Edit Course"
+msgstr "ویرایش دوره"
+
+#: includes/post_type.php:21
+msgid "Update Course"
+msgstr "بروزرسانی دوره"
+
+#: includes/post_type.php:22
+msgid "View Course"
+msgstr "نمایش دوره"
+
+#: includes/post_type.php:23
+msgid "View Courses"
+msgstr "نمایش دوره ها"
+
+#: includes/post_type.php:24
+msgid "Search Course"
+msgstr "جستجوی دوره"
+
+#: includes/post_type.php:25 includes/post_type.php:101
+msgid "Not found"
+msgstr "یافت نشد"
+
+#: includes/post_type.php:26 includes/post_type.php:102
+msgid "Not found in Trash"
+msgstr "موردی در زباله دان یافت نشد"
+
+#: includes/post_type.php:27 includes/post_type.php:103
+msgid "Featured Image"
+msgstr "تصویر شاخص"
+
+#: includes/post_type.php:28 includes/post_type.php:104
+msgid "Set featured image"
+msgstr "تنظیم تصویر شاخص"
+
+#: includes/post_type.php:29 includes/post_type.php:105
+msgid "Remove featured image"
+msgstr "حذف تصویر شاخص"
+
+#: includes/post_type.php:30 includes/post_type.php:106
+msgid "Use as featured image"
+msgstr "استفاده به عنوان تصویر شاخص"
+
+#: includes/post_type.php:31
+msgid "Insert into Course"
+msgstr "افزودن دوره والد"
+
+#: includes/post_type.php:32
+msgid "Uploaded to this course"
+msgstr "در این دوره بارگذاری شده است"
+
+#: includes/post_type.php:33
+msgid "Course list"
+msgstr "لیست دوره ها"
+
+#: includes/post_type.php:34
+msgid "Courses list navigation"
+msgstr "لیست ناوبری دوره"
+
+#: includes/post_type.php:35
+msgid "Filter Courses list"
+msgstr "فیلتر لیست دوره ها"
+
+#: includes/post_type.php:40
+msgid "Courses of this site"
+msgstr "دروه های این سایت"
+
+#: includes/post_type.php:64
+msgid "Playlist Item"
+msgstr "آیتم لیست پخش"
+
+#: includes/post_type.php:65
+msgid "Manage playlist items"
+msgstr "مدیریت آیتم های لیست پخش"
+
+#: includes/post_type.php:85
+msgctxt "Post Type General Name"
+msgid "Course Registers"
+msgstr "ثبت نامی دوره ها"
+
+#: includes/post_type.php:86
+msgctxt "Post Type Singular Name"
+msgid "Course Register"
+msgstr "ثبت نامی دوره ها"
+
+#: includes/post_type.php:87
+msgid "course Register"
+msgstr "ثبت نام دوره"
+
+#: includes/post_type.php:89
+msgid "Item Archives"
+msgstr "آرشیو دوره ها"
+
+#: includes/post_type.php:90
+msgid "Item Attributes"
+msgstr "ویژگی های دوره"
+
+#: includes/post_type.php:91
+msgid "Parent Item:"
+msgstr "دوره والد:"
+
+#: includes/post_type.php:92
+msgid "Course reigster List"
+msgstr "لیست ثبت نام دوره"
+
+#: includes/post_type.php:93
+msgid "Add New Item"
+msgstr "افزودن دوره جدید"
+
+#: includes/post_type.php:94
+msgid "Add New"
+msgstr "افزودن دوره جدید"
+
+#: includes/post_type.php:95
+msgid "New Item"
+msgstr "نمایش دوره"
+
+#: includes/post_type.php:96
+msgid "Edit course register"
+msgstr "ویرایش ثبت نامی"
+
+#: includes/post_type.php:97
+msgid "Update Item"
+msgstr "بروزرسانی دوره"
+
+#: includes/post_type.php:98
+msgid "View Item"
+msgstr "نمایش دوره"
+
+#: includes/post_type.php:99
+msgid "View Items"
+msgstr "نمایش دوره"
+
+#: includes/post_type.php:100
+msgid "Search Item"
+msgstr "جستجوی دوره"
+
+#: includes/post_type.php:107
+#, fuzzy
+#| msgid "Insert into Course"
+msgid "Insert into item"
+msgstr "افزودن دوره والد"
+
+#: includes/post_type.php:108
+#, fuzzy
+#| msgid "Uploaded to this course"
+msgid "Uploaded to this item"
+msgstr "در این دوره بارگذاری شده است"
+
+#: includes/post_type.php:109
+#, fuzzy
+#| msgid "Courses list navigation"
+msgid "Items list"
+msgstr "لیست ناوبری دوره"
+
+#: includes/post_type.php:110
+#, fuzzy
+#| msgid "Courses list navigation"
+msgid "Items list navigation"
+msgstr "لیست ناوبری دوره"
+
+#: includes/post_type.php:111
+#, fuzzy
+#| msgid "Filter Courses list"
+msgid "Filter items list"
+msgstr "فیلتر لیست دوره ها"
+
+#: includes/post_type.php:114
+msgid "Course Register"
+msgstr "ثبت نام دوره"
+
+#: includes/post_type.php:115
+msgid "This post type manage course Registers"
+msgstr ""
+
+#: includes/post_type.php:136
+msgctxt "course_regsiter"
+msgid "Failed"
+msgstr "ناموفق"
+
+#: includes/post_type.php:140
+#, php-format
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "ناموفق<span class=\"count\">(%s)</span>"
+msgstr[1] "ناموفق<span class=\"count\">(%s)</span>"
+
+#: includes/post_type.php:149 includes/post_type.php:180
+#: view/admin/metabox_course_data.php:40
+#: view/admin/metabox_course_register.php:16
+msgid "Price"
+msgstr "قیمت"
+
+#: includes/post_type.php:150
+msgid "Studnets"
+msgstr "دانشجویان"
+
+#: includes/post_type.php:151
+msgid "Sales"
+msgstr "فروش"
+
+#: includes/post_type.php:164 includes/post_type.php:171
+#: includes/post_type.php:203 templates/archive-course.php:104
+#: templates/single-course.php:175 view/admin/metabox_course_register.php:19
+#: view/admin/metabox_course_register.php:27
+msgid "Tooman"
+msgstr "تومان"
+
+#: includes/post_type.php:178 view/admin/metabox_course_register.php:40
+msgid "Student"
+msgstr "دانشجو"
+
+#: includes/post_type.php:179
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/post_type.php:181
+msgid "ID"
+msgstr "شناسه"
+
+#: includes/post_type.php:186
+msgid "Course Title"
+msgstr "عنوان دوره"
+
+#: includes/post_type.php:209
+msgid "Complete"
+msgstr "کامل"
+
+#: includes/post_type.php:210
+msgid "pending"
+msgstr "در انتظار"
+
+#: includes/post_type.php:211 view/admin/post_status.php:4
+msgid "Failed"
+msgstr "ناموفق"
+
+#: includes/post_type.php:212
+msgid "Deleted"
+msgstr "حذف شده"
+
+#: includes/post_type.php:213
+msgid "Refund"
+msgstr "مسترد شده"
+
+#: includes/taxonomy.php:8
+msgctxt "Taxonomy General Name"
+msgid "Course Categories"
+msgstr "دسته بندی های دوره"
+
+#: includes/taxonomy.php:9
+msgctxt "Taxonomy Singular Name"
+msgid "Course Category"
+msgstr "دسته بندی دوره"
+
+#: includes/taxonomy.php:10
+msgid "Course Category"
+msgstr "دسته بندی دوره"
+
+#: includes/taxonomy.php:11
+msgid "All Course Categories"
+msgstr "تمام دسته بندی های دوره"
+
+#: includes/taxonomy.php:12
+msgid "Parent Course Category"
+msgstr "دسته بندی والد دوره"
+
+#: includes/taxonomy.php:13
+msgid "Parent Course Category:"
+msgstr "دسته بندی والد دوره:"
+
+#: includes/taxonomy.php:14
+msgid "New Course Category Name"
+msgstr "نانم دسته جدید دوره"
+
+#: includes/taxonomy.php:15
+msgid "Add New Course Category"
+msgstr "افزودن دسته جدید دوره"
+
+#: includes/taxonomy.php:16
+msgid "Edit Course Category"
+msgstr "ویرایش دسته دوره"
+
+#: includes/taxonomy.php:17
+msgid "Update Course Category"
+msgstr "بروزرسانی دسته دوره"
+
+#: includes/taxonomy.php:18
+msgid "View Course Category"
+msgstr "نمایش دسته دوره"
+
+#: includes/taxonomy.php:19
+msgid "Separate Course Categories with commas"
+msgstr "دسته های دوره را با , از هم جدا کنید"
+
+#: includes/taxonomy.php:20
+msgid "Add or remove Course Categories"
+msgstr "حذف یا اضافه دسته های دوره"
+
+#: includes/taxonomy.php:21 includes/taxonomy.php:56
+msgid "Choose from the most used"
+msgstr "انتخاب از بیشتر استفاده شده ها"
+
+#: includes/taxonomy.php:22
+msgid "Popular Course Categories"
+msgstr "دسته های رایج دوره"
+
+#: includes/taxonomy.php:23
+msgid "Search Course Categories"
+msgstr "جستجوی دسته های دوره"
+
+#: includes/taxonomy.php:24 includes/taxonomy.php:59
+msgid "Not Found"
+msgstr "یافت نشد"
+
+#: includes/taxonomy.php:25 includes/taxonomy.php:60
+msgid "No items"
+msgstr "موردی یافت نشد"
+
+#: includes/taxonomy.php:26
+msgid "Course Categories list"
+msgstr "لیست دسته دوره ها"
+
+#: includes/taxonomy.php:27
+msgid "Course Categories list navigation"
+msgstr "لیست ناوبری دسته دوره"
+
+#: includes/taxonomy.php:43
+msgctxt "Taxonomy General Name"
+msgid "Course Tags"
+msgstr "برچسب های دوره"
+
+#: includes/taxonomy.php:44
+msgctxt "Taxonomy Singular Name"
+msgid "Course Tag"
+msgstr "برچسب های دوره"
+
+#: includes/taxonomy.php:45
+msgid "Course Tag"
+msgstr "برچسب دوره"
+
+#: includes/taxonomy.php:46
+msgid "All Course Tags"
+msgstr "تمام برچسب های دوره"
+
+#: includes/taxonomy.php:47
+msgid "Parent Course Tag"
+msgstr "برچسب دوره والد"
+
+#: includes/taxonomy.php:48
+msgid "Parent Course Tag:"
+msgstr "برچسب دوره والد:"
+
+#: includes/taxonomy.php:49
+msgid "New Course Tag Name"
+msgstr "نانم برچسب جدید دوره"
+
+#: includes/taxonomy.php:50
+msgid "Add New Course Tag"
+msgstr "افزودن برچسب جدید دوره"
+
+#: includes/taxonomy.php:51
+msgid "Edit Course Tag"
+msgstr "ویرایش برچسب دوره"
+
+#: includes/taxonomy.php:52
+msgid "Update Course Tag"
+msgstr "بروزرسانی برچسب دوره"
+
+#: includes/taxonomy.php:53
+msgid "View Course Tag"
+msgstr "نمایش برچسب دوره"
+
+#: includes/taxonomy.php:54
+msgid "Separate Course Tags with commas"
+msgstr "برچسب های دوره را با , از هم جدا کنید"
+
+#: includes/taxonomy.php:55
+msgid "Add or remove Course Tag"
+msgstr "حذف یا اضافه برچسب های دوره"
+
+#: includes/taxonomy.php:57
+msgid "Popular Course Tags"
+msgstr "برچسب های رایج دوره"
+
+#: includes/taxonomy.php:58
+msgid "Search Course Tags"
+msgstr "جستجوی برچسب های دوره"
+
+#: includes/taxonomy.php:61
+msgid "Course Tags list"
+msgstr "لیست برچسب های دوره"
+
+#: includes/taxonomy.php:62
+msgid "Course Tags list navigation"
+msgstr "لیست ناوبری برچسب های دوره"
+
+#: templates/archive-course.php:13
+msgid "Course category "
+msgstr "دسته بندی دوره "
+
+#: templates/archive-course.php:16
+msgid "Course Tag "
+msgstr "برچسب دوره "
+
+#: templates/archive-course.php:21
+msgid "Page"
+msgstr "صفحه"
+
+#: templates/archive-course.php:110
+msgid "view course"
+msgstr "نمایش دوره"
+
+#: templates/archive-course.php:123
+msgid "No course found"
+msgstr "یافت نشد"
+
+#: templates/single-course.php:67
+msgid "Playlist"
+msgstr "لیست پخش"
+
+#: templates/single-course.php:106 view/admin/metabox_course_playlist.php:43
+#: view/admin/metabox_course_playlist.php:98
+msgid "Premium"
+msgstr "پولی"
+
+#: templates/single-course.php:129
+msgid "Categories"
+msgstr "دسته بندی"
+
+#: templates/single-course.php:133
+msgid "Tags"
+msgstr "برچسب"
+
+#: templates/single-course.php:145 view/admin/metabox_course_playlist.php:13
+msgid "Duration"
+msgstr "مدت زمان"
+
+#: templates/single-course.php:149
+msgid "Students"
+msgstr "دانشجو"
+
+#: templates/single-course.php:153
+msgid "Date"
+msgstr "تاریخ"
+
+#: templates/single-course.php:160
+msgid "Your are student"
+msgstr "شما دانشجوی دوره هستید"
+
+#: templates/single-course.php:167
+msgid "off"
+msgstr "تخفیف"
+
+#: templates/single-course.php:179
+msgid "Buy this course"
+msgstr "خرید این دوره"
+
+#: view/admin/filter.php:7
+msgid "All students"
+msgstr "همه دانشجویان"
+
+#: view/admin/metabox_course_data.php:8
+msgid "Demo"
+msgstr "دمو"
+
+#: view/admin/metabox_course_data.php:12
+msgid "demo url here"
+msgstr "آدرس اینترنتی دمو در اینجا"
+
+#: view/admin/metabox_course_data.php:14
+msgid "Select video"
+msgstr "انتخاب ویدئو"
+
+#: view/admin/metabox_course_data.php:21
+msgid "Teacher"
+msgstr "مدرس"
+
+#: view/admin/metabox_course_data.php:27
+msgid "Select Teacher"
+msgstr "مدرس را انتخاب کنید"
+
+#: view/admin/metabox_course_data.php:44
+msgid "price here"
+msgstr "قیمت در این جا"
+
+#: view/admin/metabox_course_data.php:50
+msgid "has discount?"
+msgstr "تخفیف دارد؟"
+
+#: view/admin/metabox_course_data.php:60
+msgid "sale Price"
+msgstr "قیمت فروش"
+
+#: view/admin/metabox_course_data.php:64
+msgid "sale price here"
+msgstr "قیمت فروش در اینجا"
+
+#: view/admin/metabox_course_data.php:70
+msgid "Discount Expire"
+msgstr "تاریخ انقضای تخفیف"
+
+#: view/admin/metabox_course_playlist.php:10
+msgid "Title"
+msgstr "عنوان"
+
+#: view/admin/metabox_course_playlist.php:11
+msgid "Url"
+msgstr "آدرس فایل"
+
+#: view/admin/metabox_course_playlist.php:12
+msgid "File access"
+msgstr "سطح دسترسی"
+
+#: view/admin/metabox_course_playlist.php:14
+msgid "Action"
+msgstr "عملیات"
+
+#: view/admin/metabox_course_playlist.php:42
+#: view/admin/metabox_course_playlist.php:97
+msgid "Free"
+msgstr "رایگان"
+
+#: view/admin/metabox_course_playlist.php:60
+#: view/admin/metabox_course_playlist.php:74
+msgid "No playlist item found"
+msgstr "هیچ آیتمی در لیست پخش یافت نشد"
+
+#: view/admin/metabox_course_playlist.php:68
+msgid "Add playlist item"
+msgstr "افزودن آیتم به لیست پخش"
+
+#: view/admin/metabox_course_register.php:24
+msgid "Sale Price"
+msgstr "قیمت فروش"
+
+#: view/admin/metabox_course_register.php:32
+msgid "Discount"
+msgstr "تخفیف"
+
+#: view/admin/metabox_course_register.php:50
+msgid "Gateway"
+msgstr "درگاه"
+
+#: view/admin/metabox_course_register.php:58
+msgid "Bitpay Payment Id"
+msgstr "شناسه پرداخت بیت پی"
+
+#: view/admin/metabox_course_register.php:66
+msgid "Bitpay Transaction ID"
+msgstr "شناسه تراکنش بیت پی"
+
+#: view/admin/metabox_course_register.php:74
+msgid "Card Number"
+msgstr "شماره کارت"
+
+#: view/admin/metabox_course_register.php:82
+msgid "Register Key"
+msgstr "کلید یکتای ثبت نام"
+
+#: view/admin/post_status.php:20
+msgid "Save as failed"
+msgstr "ذخیره به عنوان ناموفق"
+
+#. Plugin Name of the plugin/theme
+msgid "Daneshjooyar Course Shop"
+msgstr "فروشگاه دوره دانشجویار"
+
+#. Plugin URI of the plugin/theme
+msgid "https://daneshjooyar.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This simple plugin for sale video course"
+msgstr "یک افزونه ساده برای فروش دوره های ویدئویی به صورت آنلاین"
+
+#. Author of the plugin/theme
+msgid "Hamed Moodi"
+msgstr "حامد مودی"
+
+#. Author URI of the plugin/theme
+msgid "https://daneshjooyar.com/teacher/h_m_mood/"
+msgstr ""
+
+#~ msgid "Course %s"
+#~ msgstr "دوره %s"
+
+#~ msgid "Student:"
+#~ msgstr "دانشجو"
+
+#, fuzzy
+#~| msgid "Edit Course"
+#~ msgid "Edit Item"
+#~ msgstr "ویرایش دوره"
+
+#, fuzzy
+#~| msgid "All Courses"
+#~ msgid "All Items"
+#~ msgstr "تمام دوره ها"
+
+#, fuzzy
+#~| msgid "Separate Course Categories with commas"
+#~ msgid "Separate items with commas"
+#~ msgstr "دسته های دوره را با , از هم جدا کنید"
+
+#, fuzzy
+#~| msgid "Add or remove Course Categories"
+#~ msgid "Add or remove items"
+#~ msgstr "حذف یا اضافه دسته های دوره"
