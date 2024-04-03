@@ -1,0 +1,226 @@
+.dsl-modal-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #00000059;
+    z-index: 9;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.dsl-modal-container.open{
+    display: flex;
+}
+
+.dsl-modal {
+    background: #FFF;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    width: 385px;
+    max-width: 90%;
+}
+
+button.dsl-close {
+    border: none;
+    background: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -21px;
+    top: -21px;
+    cursor: pointer;
+}
+
+form#dsl-login {
+    margin-bottom: 0;
+}
+
+.dsl-modal h2 {
+    color: #3C3C3C;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.dsl-field {
+    text-align: right;
+    margin: 25px 0;
+}
+
+.dsl-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.dsl-cols {
+    display: grid;
+    grid-template-columns: auto 40px 42px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.dsl-cols span {
+    direction: ltr;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dsl-cols input {
+    border-radius: 8px !important;
+    border: 1px solid #B4B4B4 !important;
+    width: 100%;
+    height: initial !important;
+    padding: 10px 10px !important;
+    background: #F6F6F6;
+    box-sizing: border-box;
+    direction: ltr;
+}
+
+
+.dsl-modal form button {
+    border: none;
+    background: #595FFF;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: 0.3s;
+}
+
+.dsl-modal form button[disabled] {
+    filter: grayscale(1);
+    opacity: .4;
+}
+
+.dsl-modal form button svg path, .dsl-modal form button svg rect {
+    fill: #FFF;
+}
+
+.dsl-modal form button svg {
+    width: 20px;
+    display: none;
+    height: 20px;
+}
+
+.dsl-modal form.loading button svg {
+    display: inline;
+}
+
+p.dsl-message {
+    text-align: right;
+    border: 1px solid #FF6363;
+    padding: 10px;
+    border-radius: 8px;
+    color: #FF6363;
+    background: lab(63.3 60.41 32.99 / .1);
+    display: none;
+    align-items: center;
+    gap: 10px;
+}
+
+p.dsl-message.active {
+    display: flex;
+}
+
+.dsl-success {
+    background: #ecffec;
+    color: green;
+    border: 1px solid green;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+.dsl-codes {
+    display: flex;
+    gap: 5px;
+    margin: 25px 0px;
+    direction: ltr;
+    justify-content: space-evenly;
+}
+
+#dsl-verify .dsl-codes input {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background: #F6F6F6;
+    border: 1px solid #FFF;
+    text-align: center;
+    color: #595FFF;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: IRANSANSfanum;
+    direction: ltr;
+}
+
+.dsl-no-receive {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.dsl-resend, a.dsl-resend:hover {
+    color: #595FFF;
+    font-weight: 500;
+    opacity: .4;
+    text-decoration: none;
+}
+
+a.dsl-resend.active{
+    opacity: 1;
+    font-weight: bold;;
+}
+
+span.dsl-countdown {
+    color: #595FFF;
+    font-weight: 500;
+}
+
+.dsl-buttons {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+form#dsl-verify {
+    margin-bottom: 0;
+}
+
+button.dsl-btn.dsl-btn-secondary {
+    border: 1px solid #595FFF;
+    background: none;
+    color: #595FFF;
+}
+
+.dsl-modal form#dsl-verify {
+    display: none;
+}
+
+.dsl-modal.verify form#dsl-verify {
+    display: block;
+}
+
+.dsl-modal.verify form#dsl-login {
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    button.dsl-close {
+        right: 5px;
+    }
+}
