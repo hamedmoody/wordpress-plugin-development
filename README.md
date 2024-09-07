@@ -1,10 +1,10 @@
 # Wordpress plugin development course files
 
 <a href="https://www.daneshjooyar.com/php-tutorial/?aftoken=wtlqp">
-  <img src="https://www.daneshjooyar.com/wp-content/uploads/2024/07/PHP.png" alt="آموزش جامع php" width="420" height="92" style="max-width: 100%;"/>
+  <img src="https://www.daneshjooyar.com/wp-content/uploads/2024/07/PHP.png" alt="آموزش جامع php" width="400" height="88" style="max-width: 100%;"/>
 </a>
 <a href="https://www.daneshjooyar.com/git-and-github/?aftoken=wtlqp">
-  <img src="https://www.daneshjooyar.com/wp-content/uploads/2024/07/Github.png" alt="آموزش جامع گیت و گیت هاب" width="420" height="92" style="max-width: 100%;"/>
+  <img src="https://www.daneshjooyar.com/wp-content/uploads/2024/07/Github.png" alt="آموزش جامع گیت و گیت هاب" width="400" height="88" style="max-width: 100%;"/>
 </a>
 
 Welcome to wordpress plugin development course at [daneshjooyar.com](https://daneshjooyar.com)
