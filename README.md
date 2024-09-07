@@ -4,7 +4,6 @@
   <picture>
     <source media="(max-width:650px)" srcset="https://www.daneshjooyar.com/wp-content/uploads/2024/09/PHP-small.png" width="770"  style="height: auto;">
     <source media="(min-width:651px)" srcset="https://www.daneshjooyar.com/wp-content/uploads/2024/09/PHP-Large.png" width="1600" style="height: auto;">
-    <img src="https://www.daneshjooyar.com/wp-content/uploads/2024/09/PHP-Large.png" alt="دوره جامع PHP" width="1600"style="height: auto;">
   </picture>
 </a>
 <a href="https://www.daneshjooyar.com/git-and-github/?aftoken=wtlqp">
