@@ -3,14 +3,14 @@
 <a href="https://www.daneshjooyar.com/php-tutorial/?aftoken=wtlqp">
   <picture>
     <source media="(max-width:650px)" srcset="https://www.daneshjooyar.com/wp-content/uploads/2024/09/PHP-small.png">
-    <source media="(min-width:650px)" srcset="https://www.daneshjooyar.com/wp-content/uploads/2024/09/PHP-Large.png">
+    <source media="(min-width:651px)" srcset="https://www.daneshjooyar.com/wp-content/uploads/2024/09/PHP-Large.png">
     <img src="https://www.daneshjooyar.com/wp-content/uploads/2024/09/PHP-Large.png" alt="دوره جامع PHP" style="width:auto;">
   </picture>
 </a>
 <a href="https://www.daneshjooyar.com/git-and-github/?aftoken=wtlqp">
   <picture>
     <source media="(max-width:650px)" srcset="https://www.daneshjooyar.com/wp-content/uploads/2024/09/Github-small.png">
-    <source media="(min-width:650px)" srcset="https://www.daneshjooyar.com/wp-content/uploads/2024/09/Github-Large.png">
+    <source media="(min-width:651px)" srcset="https://www.daneshjooyar.com/wp-content/uploads/2024/09/Github-Large.png">
     <img src="https://www.daneshjooyar.com/wp-content/uploads/2024/09/Github-Large.png" alt="دوره جامع PHP" style="width:auto;">
   </picture>
 </a>
